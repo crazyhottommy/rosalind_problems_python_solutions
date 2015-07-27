@@ -22,6 +22,14 @@ def count_dna_nucleotides_2(dna):
     # need to turn the integer to string
     print " ".join(str(l) for l in counts)
 
+
+## using Counter from collections
+
+from collections import Counter
+def count_dna_nucleotides_3(dna):
+    c = Counter(dna)
+    print c["A"], c["C"], c["G"], c["T"]
+
 # DNA = 'AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC'
 # 20 12 17 21
 
