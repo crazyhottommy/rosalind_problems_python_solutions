@@ -15,3 +15,4 @@ def get_pair(n,k):
 # when n=5, a5 = 4 * 3 + a4
 # when n=6, a6 = 7 * 3 + a5
 # when n=7, a7 = 10 * 3 + a6
+# when n >3, 等差数列 ＊3 ＋ 前项
